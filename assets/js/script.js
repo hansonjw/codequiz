@@ -14,18 +14,18 @@ var counter = 45;
 
 // list of questions, answers, and correct answer for scrore keeping
 var questions = [
-  {q: "what is 1...?", a1: "this one!", a2: "not this one", a3: "not this one", a4: "not this one", correct: 'ans1'},
-  {q: "what is 2...?", a1: "not this one", a2: "this one!", a3: "not this one", a4: "not this one", correct: 'ans2'},
-  {q: "what is 3...?", a1: "not this one", a2: "not this one", a3: "this one!", a4: "not this one", correct: 'ans3'},
-  {q: "what is 4...?", a1: "not this one", a2: "not this one", a3: "not this one", a4: "this one!", correct: 'ans4'},
-  {q: "what is 5...?", a1: "this one!", a2: "not this one", a3: "not this one", a4: "not this one", correct: 'ans1'},];
+  {q: "In which HTML element does Javascript go in?", a1: "<script>", a2: "<javascript>", a3: "<div script>", a4: "<js>", correct: 'ans1'},
+  {q: "What is the correct syntax for referring to an external script called xxx.js?", a1: "<script href='xxx.js'", a2: "<script name='xxx.js'", a3: "<script #id='xxx.js'", a4: "<script src='xxx.js'", correct: 'ans4'},
+  {q: "How do write 'Hello World' in and alert box?", a1: "message('Hello World')", a2: "alert('Hello World')", a3: "window('Hello World')", a4: "alert.msg('Hello World')", correct: 'ans2'},
+  {q: "How do you create a function in Javascript?", a1: "function: myfunction()", a2: "myfunction() = function", a3: "function myfunction()", a4: "function = myfunction()", correct: 'ans3'},
+  {q: "How do you call a function named 'myFunction'?", a1: "call myFunction()", a2: "myFunction()", a3: "myFunction", a4: "execute myFunction", correct: 'ans2'},];
 
 // Create start button, show on initial load of webpage, remove later
 var startButton = document.createElement('button');
 startButton.textContent = "Start New Game";
 startButton.setAttribute("id", "start");
-gamePlayEl.appendChild(startButton);
 startButton.setAttribute("class", "otherButtons");
+gamePlayEl.appendChild(startButton);
 
 // Create elements for answer buttons, the display question, and the timer display
 var ansEl1 = document.createElement('button');
