@@ -1,9 +1,21 @@
 *{
     outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.page-content {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ansbutton {
-    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flexbox;
     background-color: cornsilk;
     color: brown;
     width: 200px;
@@ -23,7 +35,8 @@
 }
 
 .otherButtons {
-    display: block;
+    text-align: center;
+    display: flexbox;
     background-color: cornsilk;
     border-color: rgb(31, 37, 66);
     color: rgb(31, 37, 66);
