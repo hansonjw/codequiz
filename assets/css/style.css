@@ -1,0 +1,43 @@
+*{
+    outline: none;
+}
+
+.ansbutton {
+    display: block;
+    background-color: cornsilk;
+    color: brown;
+    width: 200px;
+    height: 35px;
+    margin: 20px;
+    border-color: brown;
+    border-radius: 10px;
+}
+
+.ansbutton:hover {
+    background-color: brown;
+    color: cornsilk;
+}
+
+.ansbutton:active {
+  box-shadow: 5px 5px 10px rgb(226, 52, 52);
+}
+
+.otherButtons {
+    display: block;
+    background-color: cornsilk;
+    border-color: rgb(31, 37, 66);
+    color: rgb(31, 37, 66);
+    width: 200px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.otherButtons:hover {
+    background-color: rgb(31, 37, 66);
+    color: white;
+}
+
+.otherButtons:active {
+    box-shadow: 5px 5px 10px rgb(226, 52, 52);
+}
